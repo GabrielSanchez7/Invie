@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.contenedor {
+    width: 1200px;
+    margin: auto;
+}
+.fondo-banner {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    padding-bottom: 50px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #808080;
+}
+.menu {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.banner h1, .banner h1 span{
+    font-family: Righteous, sans-serif;
+    font-size: 70px;
+    color: white;
+    padding-bottom: 5px;
+}
+.banner h1 span{
+    text-decoration: underline;
+}
+.banner{
+    color: white;
+    font-weight: 400;
+    padding: 150px 0;
+}
+.banner h4 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.banner a, .col2 .button {
+    background: rgba(255,112,80,1);
+    background: -moz-linear-gradient(left, rgba(255,112,80,1) 0%, rgba(254,52,79,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,112,80,1)), color-stop(100%, rgba(254,52,79,1)));
+    background: -webkit-linear-gradient(left, rgba(255,112,80,1) 0%, rgba(254,52,79,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,112,80,1) 0%, rgba(254,52,79,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,112,80,1) 0%, rgba(254,52,79,1) 100%);
+    background: linear-gradient(to right, rgba(255,112,80,1) 0%, rgba(254,52,79,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7050', endColorstr='#fe344f', GradientType=1 );
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 8px;
+}
+.guitarras{
+    color: #15222a;
+    padding: 50px 0;
+    width: 700px;
+    margin: auto;
+}
+.guitarras h3{
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 1px solid #15222a;
+    padding-bottom: 5px;
+}
+.guitarras h2{
+    font-size: 40px;
+    font-family: Righteous;
+}
+.guitarras ol li{
+    list-style: none;
+}
+.acustica, .classic{
+    margin: 50px 0;
+    padding: 50px 50px;
+    position: relative;
+    border: 1px #15222a solid;
+    border-radius: 20px;
+}
+.acustica img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.classic img{
+    position: absolute;
+    top: -35px;
+    left: 0;
+}
+.classic{
+    text-align: right;
+}
+.acustica h2, .classic h2{
+    padding-bottom: 10px;
+}
+footer {
+    background-color: #273b47;
+    color: white;
+    padding: 60px 0;
+}
+.footer img{
+    padding-bottom: 30px;
+}
+textarea, #nombre, #email{
+    width: 100%;
+}
+.genero{
+    display: flex;
+    justify-content: space-between;
+}
+.genero input, .datos input{
+    margin-bottom: 12px
+}
+.intereses input{
+    margin-right: 5px;
+}
+.intereses label{
+    margin-right: 30px;
+}
+.col2 .button{
+    border: none;
+    margin-top: 10px;
+}
+main{
+    padding: 60px;
+}
+table{
+    margin: auto;
+    border: none;
+}
+table th, table td{
+    padding: 20px;
+    width: 300px;
+}
+table th{
+    color: white;
+    background-color: #273b47;
+    font-weight: 400;
+}
+table, td, th{
+    border: 1px solid #273b47;
+    border-collapse: collapse;
+}
