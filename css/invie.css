@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    /*font-weight: 300;*/
 }
 .contenedor {
     width: 1000px;
@@ -74,7 +73,6 @@ header {
 }
 .guitarras h3{
     font-size: 25px;
-    /*font-weight: 400;*/
     border-bottom: 1px solid #15222a;
     padding-bottom: 5px;
 }
@@ -84,6 +82,7 @@ header {
 }
 .guitarras ol li{
     list-style: none;
+    font-size: 16px;
 }
 .acustica, .classic{
     margin: 50px 0;
@@ -160,7 +159,6 @@ table th, table td{
 table th{
     color: white;
     background-color: #273b47;
-    /*font-weight: 400;*/
 }
 table, td, th{
     border: 1px solid #273b47;
